@@ -33,3 +33,6 @@ body {
 .hand--thick {
     stroke-width: 7;
 }
+.hand--second {
+    stroke: #49BEAA;
+}
