@@ -11,3 +11,17 @@ body {
     stroke: #605770;
     stroke-width: 9;
 }
+.minute-marker {
+    fill: none;
+    stroke: #9E7682;
+    stroke-width: 7;
+    stroke-dasharray: 0.2 0.8;
+    stroke-dashoffset: 0.1; 
+}
+.hour-marker {
+    fill: none;
+    stroke: #EDCB96;
+    stroke-width: 7;
+    stroke-dasharray: 0.2 4.8;
+    stroke-dashoffset: 0.1;
+}
