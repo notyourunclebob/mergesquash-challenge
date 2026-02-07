@@ -8,6 +8,10 @@ function animateWatch() {
     const hour = date.getHours();
     const minute = date.getMinutes();
     const second = date.getSeconds();
+
+    hoursElement.setAttribute("transform", `rotate(${(360/12) * hour})`);
+    minutesElement.setAttribute("transform", `rotate(${(360/60) * minute})`);
+    secondsElement.setAttribute("transform", `rotate(${(360/60) * second})`);
     
     requestAnimationFrame(animateWatch);
 }
