@@ -14,7 +14,7 @@ function animateWatch() {
     // const minute = date.getMinutes();
     const second = date.getSeconds();
     const hour = date.getHours() + date.getMinutes() / 60;
-    const minute = date.getMinutes() + date.getSeconds / 60;
+    const minute = date.getMinutes() + date.getSeconds() / 60;
     // const second = date.getSeconds() + date.getMilliseconds() / 1000;
 
     textElement.textContent = showDate ? day : ampm;
