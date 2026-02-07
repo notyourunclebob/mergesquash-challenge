@@ -36,3 +36,15 @@ body {
 .hand--second {
     stroke: #49BEAA;
 }
+.center {
+    fill: #4D4861;
+    stroke-width: 2;
+    stroke: #49BEAA;
+}
+.text {
+    fill:#EDCB96;
+    font-family: Arial, sans-serif;
+    text-anchor: middle;
+    cursor: pointer;
+    user-select: none;
+}
