@@ -25,3 +25,11 @@ body {
     stroke-dasharray: 0.2 4.8;
     stroke-dashoffset: 0.1;
 }
+.hand {
+    stroke: #F7C59F;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+.hand--thick {
+    stroke-width: 7;
+}
