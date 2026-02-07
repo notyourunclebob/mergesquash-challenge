@@ -1,0 +1,13 @@
+body {
+    background-color: #49BEAA;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-plate {
+    fill: #4D4861;
+    stroke: #605770;
+    stroke-width: 9;
+}
