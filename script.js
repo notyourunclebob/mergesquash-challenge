@@ -5,6 +5,10 @@ const secondsElement = document.getElementById("second-hand");
 
 function animateWatch() {
 
+    const hour = date.getHours();
+    const minute = date.getMinutes();
+    const second = date.getSeconds();
+    
     requestAnimationFrame(animateWatch);
 }
 
